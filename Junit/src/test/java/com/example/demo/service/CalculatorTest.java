@@ -36,4 +36,12 @@ class CalculatorTest {
         //Assert
         assertEquals(42, result);
     }
+
+
+    @Test
+    void isPrimeTest() {
+        boolean result = c.isPrime(113);
+
+        assertEquals(false, result);
+    }
 }
